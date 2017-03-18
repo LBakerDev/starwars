@@ -1,3 +1,12 @@
+header.container{
+	margin-bottom: 40px;
+	background-color:orange;
+}
+
+body{
+	 font-family: "Roboto", sans-serif;
+}
+
 main{
 	padding-top: 20px;
 }
@@ -8,18 +17,6 @@ main .row{
 	margin-left: auto;
 }
 
-body{
-	 font-family: "Roboto", sans-serif;
-}
-
-.container{
-	background-color:orange;
-}
-
-.title, .subtitle{
-	margin-left: 479px;
-}
-
 .title{
 	font-size: 20px;
 }
@@ -28,12 +25,15 @@ body{
 	font-size: 12px;
 }
 
-.row{
-	margin-left: 80px;
-}
-
 .card-image{
 	width:100%;
 }
 
-.
+.content{
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+.content h1, .content h4{
+	margin-left: 10px;
+}
